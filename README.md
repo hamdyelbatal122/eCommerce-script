@@ -1,5 +1,7 @@
 # eCommerce-script-wih-PHP
 
-edit config and 
+edit config fille
+
+and 
 
 enjoy !!!
