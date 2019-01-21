@@ -239,11 +239,3 @@
 		</div>
 	</div>
 </div>
-<?php
-	} else {
-		header('Location: login.php');
-		exit();
-	}
-	include $tpl . 'footer.php';
-	ob_end_flush();
-?>
