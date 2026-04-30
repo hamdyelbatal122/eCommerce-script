@@ -1,0 +1,70 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# PHP Dependencies
+/vendor/
+composer.lock
+composer.phar
+
+# Node (if using build tools)
+/node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Logs & Cache
+/storage/logs/*
+/storage/cache/*
+!.gitkeep
+
+# Uploads & Temporary Files
+/public/uploads/*
+!.gitkeep
+/tmp/
+/temp/
+
+# OS Files
+.AppleDouble
+.LSOverride
+.DS_Store
+Thumbs.db
+
+# Development
+.phpunit.result
+.phpunit.cache/
+
+# Database
+*.sql.bak
+*.sql.gz
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Configuration
+config.local.php
+database.local.php
+
+# Build Artifacts
+/dist/
+/build/
+
+# Documentation (Legacy - we keep only README.md)
+# DEVELOPERS.md
+# UPGRADE.md
+# TRANSFORMATION.md
+# INDEX.md
